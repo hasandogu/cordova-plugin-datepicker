@@ -28,7 +28,8 @@ DatePicker.prototype.show = function(options, cb) {
 		date : '',
 		minDate: 0,
 		maxDate: 0,
-		clearText: 'Clear'
+		clearText: 'Clear',
+		is24HourView: true
 	};
 
 	for (var key in defaults) {

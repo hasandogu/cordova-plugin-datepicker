@@ -114,6 +114,15 @@ Type: String
 
 Default: `#000000`
 
+### is24HourView - Android
+Set DatePicker to be 24 hour view.
+
+Type: Boolean
+
+Values: `true` | `false`
+
+Default: `true`
+
 ### x - iOS (iPad only)
 X position of date picker. The position is absolute to the root view of the application.
 
